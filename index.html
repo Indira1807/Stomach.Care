@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stomach.Care</title>
+
+    <!-- Logo Title Bar -->
+    <link rel="Icon" href="image/Logo_S_RBG.png" type="image/x-icon"/>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&display=swap");
+    </style>
+
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 z-3">
+      <div class="container">
+        <a href=""><img src="image/Logo_StoC RBG.png" alt="" width="80"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Article
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cegahArtikel.html">Prevent</a></li>
+                <li><a class="dropdown-item" href="deteksiArtikel.html">Detect</a></li>
+                <li><a class="dropdown-item" href="obatiArtikel.html">Treat</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Service
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="service1.html">Online consultation</a></li>
+                <li><a class="dropdown-item" href="service2.html">Supportive community</a></li>
+                <li><a class="dropdown-item" href="service3.html">Educational resources</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel -->
+    <div id="mainCarousel" class="carousel slide z-0" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="cegahArtikel.html">
+            <img src="image/slide cegah.jpg" class="d-block w-100" alt="Slide 1" />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>How to Prevent Stomach Diseases?</h2>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="deteksiArtikel.html">
+            <img src="image/Slide Deteksi.jpg" class="d-block w-100" alt="Slide 2" />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Detecting Stomach Diseases!</h2>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="obatiArtikel.html">
+            <img src="image/slide obati.jpg" class="d-block w-100" alt="Slide 3" />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Treatment of Stomach Diseases</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Artikel -->
+    <section id="artikel" style="margin-top: 100px;">
+      <div class="container">
+        <div class="row justify-content-center mt-3 fs-5">
+          <div class="col-lg-4 justify-content-center">
+            <div class="d-flex justify-content-center align-items-center gap-3">
+            <img
+              src="image/Protect.png"
+              alt=""
+              width="80"
+              height="80"
+              class="justify-items-center"
+            /> 
+            <h1 class="title-logo">Prevent</h1>
+            </div>
+            <ul class="list-group text-start mt-3 bg-white">
+              <li class="list-group-item bg-white">
+                <a class="link-artikel" href="cegahArtikel.html">
+                  How to Prevent Stomach Diseases?
+                  <p style="font-size: small;">Stomach.Care | 29 September 2024</p>
+                </a> 
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 justify-content-center mt-3  mt-lg-0">
+          <div class="d-flex justify-content-center align-items-center gap-3">
+            <img src="image/Deteksi.png" alt="" width="80" height="80">
+            <h1 class="title-logo">Detection</h1>
+            </div>
+            <ul class="list-group text-start mt-3">
+              <li class="list-group-item">
+                <a class="link-artikel" href="deteksiArtikel.html">
+                  How to Detect Stomach Diseases?
+                  <p style="font-size: small;">Stomach.Care | 29 September 2024</p>
+                </a> 
+              </li>
+            </ul>
+          </div>
+            <div class="col-lg-4 justify-content-center mt-3 mt-lg-0">
+           <div class="d-flex justify-content-center align-items-center gap-3">
+            <img src="image/Obati.png" alt="" width="80" height="80">
+            <h1 class="title-logo">Treat</h1>
+           </div>
+            <ul class="list-group text-start mt-3">
+              <li class="list-group-item">
+                <a class="link-artikel" href="obatiArtikel.html">
+                  Some Treatments for Stomach Diseases
+                  <p style="font-size: small;">Stomach.Care | 29 September 2024</p>
+                </a> 
+              </li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <!-- Artikel End -->
+
+    <!-- Layanan -->
+    <section id="layanan" style="margin-top: 150px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="title-layanan">Service</h2>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-4 text-center">
+           <a href="service1.html" style="text-decoration: none;"> <div class="card-layanan">
+              <div class="circle-icon position-relative mx-auto">
+                <img src="image/TipsHidupSehatRGB.png" alt="" width="50"
+                class="position-absolute top-50 start-50 translate-middle">
+              </div>
+              <h3 class="text-service-1 mt-4">Online consultation</h3>
+              <p class="mt-3">Focused on stomach health issues with doctors or nutritionists.</p>
+            </div></a>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <a href="service2.html" style="text-decoration: none;">
+              <div class="card-layanan">
+              <div class="circle-icon position-relative mx-auto">
+                <img src="image/Pengingat KesehatanRGB.png" alt="" width="50"
+                class="position-absolute top-50 start-50 translate-middle">
+              </div>
+              <h3 class="mt-4">Supportive community</h3>
+              <p class="mt-3">A forum to share experiences related to stomach issues like acid reflux or gastritis.
+              </p>
+            </div></a>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <a href="service3.html" style="text-decoration: none;">
+              <div class="card-layanan">
+              <div class="circle-icon position-relative mx-auto">
+                <img src="image/TipsDietSehatRGB.png" alt="" width="50"
+                class="position-absolute top-50 start-50 translate-middle">
+              </div>
+              <h3 class="mt-4">Educational resources</h3>
+              <p class="mt-3">In-depth content on how to maintain stomach health and stress management.</p>
+            </div></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Layanan End -->
+
+    <!-- FAQ -->
+    <section id="FAQ" style="background-color: #ccddff; margin-top:150px; margin-bottom: 150px;">
+      <h1 class="text-center" style="color: #264073">Frequently Asked Questions</h1>
+      <div class="container">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item" style="margin-top: 40px">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">What is stomach disease?</button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Stomach diseases encompass various conditions that affect the health of the stomach, such as gastritis, stomach ulcers, and acid reflux. These conditions can cause symptoms like stomach pain, nausea, and indigestion.</div>
+            </div>
+          </div>
+          <div class="accordion-item" style="margin-top: 10px">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Can stomach diseases be prevented?</button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Stomach diseases can be prevented in several ways, such as:
+                <ol>
+                  <li>Avoiding spicy, fatty, and acidic foods</li>
+                  <li>Reducing alcohol and caffeine consumption</li>
+                  <li>Managing stress through relaxation techniques</li>
+                  <li>Not smoking</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" style="margin-top: 10px">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Can stomach diseases be completely cured?</button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Many cases of stomach diseases can be treated and well-managed. With proper diagnosis and appropriate treatment, patients can experience significant improvement. However, some conditions may require long-term care.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!-- FAQ End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <img src="image/Logo_StoC RBG.png" style="margin-left: -4px" width="70" alt="Logo" />
+            <div class="footer-text"><strong>Care for Health, Care for the Stomach</strong></div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="social-icons">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+              <a href="#"><i class="bi bi-tiktok"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 text-end">
+            <div class="footer-links">
+              <strong>
+                <a href="#">HOME</a>
+                <a href="#artikel">ARTICLE</a>
+                <a href="#layanan">SERVICE</a>
+                <a href="#FAQ">FAQ</a>
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
